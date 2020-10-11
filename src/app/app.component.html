@@ -1,6 +1,7 @@
 <mat-toolbar color="primary">
   <mat-toolbar-row>
     <span>{{ title }}</span>
+    <div>
     <button
       mat-icon-button 
       class="example-icon" 
@@ -22,11 +23,11 @@
       [routerLink]="'/crearUsuario'">
      <mat-icon> assignment_ind</mat-icon>
     </button>
+    </div>
   </mat-toolbar-row>
-
-  
 </mat-toolbar>
 <router-outlet></router-outlet>
-<div>
-  <h1>Footer</h1>
-</div>
+<footer>
+  <h1>&copy; Danny Ochoa, Freddy Patarroyo, Nicolas Soler</h1>
+</footer>
+ 
