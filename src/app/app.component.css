@@ -1,0 +1,23 @@
+mat-toolbar-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+mat-toolbar-row button{
+    margin-left: 40px;
+}
+
+footer{
+    background: darkorchid;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+footer h1{
+    margin: 10px auto;
+}
