@@ -1,4 +1,4 @@
-<div *ngFor="let tweet of listaTweets">
+<div *ngFor="let tweet of listaTweets | async">
     <app-tweet [tweet]="tweet"></app-tweet>
     <hr>
 </div>
