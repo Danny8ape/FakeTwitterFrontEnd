@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  urlApi: 'https://faketwitter-2020.herokuapp.com/'
+  urlApi: 'https://faketwitter-2020.herokuapp.com'
 };
 
 /*

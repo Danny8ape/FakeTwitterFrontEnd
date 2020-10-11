@@ -4,7 +4,7 @@ export class Tweet {
     message: string;
     published_date: Date;
     device: string;
-    author: string;
+    idUser: string;
     location: string;
 
     constructor (idPost?: number){
