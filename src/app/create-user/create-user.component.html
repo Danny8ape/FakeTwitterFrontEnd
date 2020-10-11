@@ -1,1 +1,11 @@
-<p>create-user works!</p>
+
+<mat-card-content>
+    Nombre de usuario
+    <input type="text" name="username" [(ngModel)]='newUser.username' >
+</mat-card-content>
+<mat-card-content>
+    fecha
+    <input type="text" name="date" [(ngModel)]='newUser.creation_date' >
+</mat-card-content>
+
+<button (click)="createUser()">ADD USER</button> 

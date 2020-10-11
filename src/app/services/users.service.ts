@@ -15,6 +15,10 @@ export class UsersService {
     return this.http.get <User[]> (`${environment.urlApi}/users`)
   }
 
+  getbyId(idUser): Observable<User> {
+    return this.http.get <User> (`${environment.urlApi}/users/${idUser}`)
+  }
+
   createUser(user: User){
     return this.http.post(`${environment.urlApi}/users`, user).subscribe(
       (response) => {
