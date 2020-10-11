@@ -2,14 +2,18 @@
   <mat-toolbar-row>
     <span>{{ title }}</span>
     <button
-      
-    mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      mat-icon-button 
+      class="example-icon" 
+      aria-label="Example icon-button with menu icon"
+      [routerLink]="'/listaTweets'"      >
       <mat-icon>menu</mat-icon>
     </button>
     <button
-      
-    mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>home</mat-icon>
+      mat-icon-button 
+      class="example-icon" 
+      aria-label="Example icon-button with menu icon"
+      [routerLink]="'/crearTweet'">
+     <mat-icon> home</mat-icon>
     </button>
   </mat-toolbar-row>
 
