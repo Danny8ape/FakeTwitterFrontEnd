@@ -16,13 +16,15 @@ import { CreateTweetComponent } from './create-tweet/create-tweet.component';
 
 //SERVICES
 import { TweetsInfoService } from "./services/tweets-info.service";
+import { CreateUserComponent } from './create-user/create-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TweetsListComponent,
     TweetComponent,
-    CreateTweetComponent
+    CreateTweetComponent,
+    CreateUserComponent
     
   ],
   imports: [

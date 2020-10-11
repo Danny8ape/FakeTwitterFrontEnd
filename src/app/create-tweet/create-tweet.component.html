@@ -1,6 +1,19 @@
 <p>create-tweet works!</p>
-<input type="text" name="author" [(ngModel)]='nuevoTweet.author' >
-<input type="text" name="text" [(ngModel)]='nuevoTweet.message'>
-<input type="text" name="device" [(ngModel)]='nuevoTweet.device'>
-<input type="text" name="location" [(ngModel)]='nuevoTweet.location'>
+<mat-card-content>
+    AutorId
+    <input type="text" name="author" [(ngModel)]='nuevoTweet.author' >
+</mat-card-content>
+<mat-card-content>
+    Tweet
+    <input type="text" name="text" [(ngModel)]='nuevoTweet.message'>
+</mat-card-content>
+<mat-card-content>
+    Dispositivo
+    <input type="text" name="device" [(ngModel)]='nuevoTweet.device'>
+</mat-card-content>
+<mat-card-content>
+    Ubicacion
+    <input type="text" name="location" [(ngModel)]='nuevoTweet.location'>
+</mat-card-content>
+
 <button (click)="crearNuevoTweet()">ADD TWEET</button> 
