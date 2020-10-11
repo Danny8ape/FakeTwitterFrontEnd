@@ -1,19 +1,24 @@
-
+<div>
 <mat-card-content>
-    AutorId
+    <p>AutorId </p>
     <input type="text" name="author" [(ngModel)]='nuevoTweet.idUser' >
 </mat-card-content>
+<hr>
 <mat-card-content>
-    Tweet
+    <p>Tweet</p>
     <input type="text" name="text" [(ngModel)]='nuevoTweet.message'>
 </mat-card-content>
+<hr>
 <mat-card-content>
-    Dispositivo
+    <p>Dispositivo</p>
     <input type="text" name="device" [(ngModel)]='nuevoTweet.device'>
 </mat-card-content>
+<hr>
 <mat-card-content>
-    Ubicacion
+    <p>Ubicacion</p>
     <input type="text" name="location" [(ngModel)]='nuevoTweet.location'>
 </mat-card-content>
+<hr>
 
 <button (click)="crearNuevoTweet()">ADD TWEET</button> 
+</div>

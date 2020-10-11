@@ -1,0 +1,57 @@
+div{
+    margin: auto;
+    width: 50%;
+    border: 1px solid #000000;
+    border-radius:20px ;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div mat-card-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+div hr{
+    width: 70%;
+}
+
+div mat-card-content input{
+    padding: 10px;
+    width:  70%;
+    margin: auto;
+}
+
+div mat-card-content input:hover{
+    border: 2px solid blueviolet;
+}
+
+div mat-card-content p{
+    margin: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+div button{
+    width: 70%;
+    padding: 20px;
+    background: forestgreen;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+div button:hover{
+    background: chartreuse;
+    border: 2px solid yellowgreen;
+}

@@ -1,10 +1,11 @@
 mat-toolbar-row{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 mat-toolbar-row button{
-    margin-left: 40px;
+    margin-right: 40px;
 }
 
 footer{
