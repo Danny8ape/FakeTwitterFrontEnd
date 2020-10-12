@@ -13,8 +13,6 @@ footer{
     color: #ffffff;
     padding: 10px;
     width: 100%;
-    position: absolute;
-    bottom: 0px;
     display: flex;
     justify-content: center;
 }
