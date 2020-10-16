@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,13 +14,17 @@ import { TweetComponent } from './tweet/tweet.component';
 import {MatCardModule} from '@angular/material/card';
 import { CreateTweetComponent } from './create-tweet/create-tweet.component'; 
 
+//SERVICES
+import { TweetsInfoService } from "./services/tweets-info.service";
+import { CreateUserComponent } from './create-user/create-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TweetsListComponent,
     TweetComponent,
-    CreateTweetComponent
+    CreateTweetComponent,
+    CreateUserComponent
     
   ],
   imports: [
@@ -28,10 +33,11 @@ import { CreateTweetComponent } from './create-tweet/create-tweet.component';
     BrowserAnimationsModule, 
     MatToolbarModule,
     MatIconModule,
+    HttpClientModule,
     FormsModule,
     MatCardModule
   ],
-  providers: [],
+  providers: [TweetsInfoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

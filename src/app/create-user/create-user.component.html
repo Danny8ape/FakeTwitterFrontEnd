@@ -1,0 +1,12 @@
+<div>
+<mat-card-content>
+    <p>Nombre de usuario</p>
+    <input type="text" name="username" [(ngModel)]='newUser.username' >
+</mat-card-content>
+<mat-card-content>
+    <p>fecha</p>
+    <input type="text" name="date" [(ngModel)]='newUser.creation_date' >
+</mat-card-content>
+
+<button (click)="createUser()">ADD USER</button> 
+</div>
